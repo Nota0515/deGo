@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support dego.ai</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: #eeeeee;
+            width: 260px;
+            padding: 12px;
+            margin: 0;
+        }
+
+        .header {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 2px solid #323232;
+            border-radius: 7px;
+            background: white;
+            flex-shrink: 0;
+        }
+
+        .header a {
+            color: #323232;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+        }
+
+        .donation-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            width: 100%;
+        }
+
+        .donation-card h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .donation-card p {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 14px;
+            line-height: 1.5;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #777;
+            margin-bottom: 14px;
+        }
+
+        .paypal-btn {
+            --bg: #000;
+            --hover-bg: #ff90e8;
+            --hover-text: #000;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid var(--bg);
+            border-radius: 4px;
+            padding: 0.8em 2em;
+            background: var(--bg);
+            transition: 0.2s;
+        }
+
+        .paypal-btn:hover {
+            color: var(--hover-text);
+            transform: translate(-0.25rem, -0.25rem);
+            background: var(--hover-bg);
+            box-shadow: 0.25rem 0.25rem var(--bg);
+        }
+
+        .paypal-btn:active {
+            transform: translate(0);
+            box-shadow: none;
+        }
+
+        .footer-text {
+            margin-top: 12px;
+            font-size: 11px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="index.html">← Back</a>
+    </div>
+
+    <div class="container">
+        <div class="donation-card">
+            <h1>Support deGo</h1>
+
+            <p>
+                If this extension helps you, consider supporting development.
+            </p>
+
+            <p class="note">
+                Donations are optional and do not unlock any features.
+            </p>
+
+            <a class="paypal-btn" href="https://www.paypal.com/paypalme/abhiakhil" target="_blank"
+                rel="noopener noreferrer">
+                Donate via PayPal
+            </a>
+
+            <div class="footer-text">
+                No ads • No tracking • Independent project
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
