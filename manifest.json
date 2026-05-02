@@ -2,7 +2,7 @@
     "name": "deGo - Hide Google AI Overviews",
     "description": "Helps beginners research and learn independently by hiding AI summaries.",
     "version": "1.0.2",
-    "manifest_version": 4,
+    "manifest_version": 3,
     "permissions": [
         "storage"
     ],
